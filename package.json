@@ -1,0 +1,19 @@
+{
+  "name": "@micro-js/pick-as",
+  "description": "Return partial copy of object containing specified subset of aliased keys.",
+  "repository": "git://github.com/micro-js/pick-as.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@micro-js/get-prop": "^1.0.0",
+    "@micro-js/is-undefined": "^1.0.0",
+    "@micro-js/values": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
