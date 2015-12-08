@@ -2,7 +2,7 @@
   "name": "@micro-js/pick-as",
   "description": "Return partial copy of object containing specified subset of aliased keys.",
   "repository": "git://github.com/micro-js/pick-as.git",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
