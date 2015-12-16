@@ -10,12 +10,12 @@ Return partial copy of object containing specified subset of aliased keys.
 
 ## Installation
 
-    $ npm install @micro-js/pick-as
+    $ npm install @f/pick-as
 
 ## Usage
 
 ```js
-var pickAs = require('@micro-js/pick-as')
+var pickAs = require('@f/pick-as')
 
 var source = {a: {b: 2}, c: 3}
 pickAs({d: 'a.b', e: 'c'}, source) // => {d: 2, e: 3}
@@ -41,5 +41,5 @@ MIT
 [git-url]: https://github.com/micro-js/pick-as
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/@micro-js/pick-as.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@micro-js/pick-as
+[npm-image]: https://img.shields.io/npm/v/@f/pick-as.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f/pick-as
