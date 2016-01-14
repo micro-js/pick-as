@@ -18,7 +18,7 @@ Return partial copy of object containing specified subset of aliased keys.
 var pickAs = require('@f/pick-as')
 
 var source = {a: {b: 2}, c: 3}
-pickAs({d: 'a.b', e: 'c'}, source) // => {d: 2, e: 3}
+pickAs({'a.b': 'd', c: 'e'}, source) // => {d: 2, e: 3}
 
 ```
 
